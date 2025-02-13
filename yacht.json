@@ -129,7 +129,7 @@
       "name": "als",
       "description": "Peppermint is a free and open source tickeg management solution with a range of features",
       "logo": "https://raw.githubusercontent.com/Peppermint-Lab/peppermint/master/public/logo.svg",
-      "image": "apilogicserver/api_logic_server/general",
+      "image": "apilogicserver/api_logic_server",
       "categories": [
       
       ],

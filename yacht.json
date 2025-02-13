@@ -125,15 +125,13 @@
       ]
     }, {
       "type": 1,
-      "title": "Peppermint",
-      "name": "Peppermint",
+      "title": "ALS",
+      "name": "als",
       "description": "Peppermint is a free and open source tickeg management solution with a range of features",
       "logo": "https://raw.githubusercontent.com/Peppermint-Lab/peppermint/master/public/logo.svg",
-      "image": "pepperlabs/peppermint:latest",
+      "image": "apilogicserver/api_logic_server/general",
       "categories": [
-        "Other",
-        "Tools",
-        "Management"
+      
       ],
       "platform": "linux",
       "restart_policy": "unless-stopped",
@@ -142,8 +140,8 @@
       ],
       "volumes": [
         {
-          "container": "/music",
-          "bind": "/srv/dev-disk-by-label-media/Files/AppData/Config/peppermint"
+          "container": "/samw",
+          "bind": ""
   
         }
       ],
@@ -151,12 +149,12 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "1000"
+          "default": "!PUID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "100"
+          "default": "!PGID"
         },
         {
           "name": "PORT",
